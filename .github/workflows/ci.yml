@@ -68,7 +68,7 @@ jobs:
         run: pnpm format:check
 
       - name: Lint
-        run: PATH="$PWD/bin:$PATH" turbo run lint --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
+        run: pnpm exec turbo run lint --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Typecheck
         run: pnpm typecheck
@@ -80,7 +80,7 @@ jobs:
         run: pnpm coverage:report
 
       - name: Build
-        run: PATH="$PWD/bin:$PATH" turbo run build --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
+        run: pnpm exec turbo run build --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Dependency audit (HIGH/CRITICAL gate)
         run: pnpm audit:deps
