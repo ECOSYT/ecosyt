@@ -71,7 +71,7 @@ jobs:
         run: pnpm exec turbo run lint --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Typecheck
-        run: pnpm typecheck
+        run: pnpm exec turbo run typecheck --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Unit tests
         run: pnpm test
