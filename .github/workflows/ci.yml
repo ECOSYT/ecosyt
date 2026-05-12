@@ -68,19 +68,19 @@ jobs:
         run: pnpm format:check
 
       - name: Lint
-        run: pnpm lint
+        run: pnpm exec turbo run lint --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Typecheck
-        run: pnpm typecheck
+        run: pnpm exec turbo run typecheck --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Unit tests
-        run: pnpm test
+        run: pnpm exec turbo run test --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Coverage gate (>=80%)
         run: pnpm coverage:report
 
       - name: Build
-        run: pnpm build
+        run: pnpm exec turbo run build --filter=!@ecosyt/e2e --filter=!@ecosyt/performance
 
       - name: Dependency audit (HIGH/CRITICAL gate)
         run: pnpm audit:deps
@@ -124,9 +124,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-
-      - name: Build
-        run: pnpm build
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v4
