@@ -1,0 +1,13 @@
+{
+  "name": "@ecosyt/e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write --ignore-path ../../.prettierignore",
+    "format:check": "prettier . --check --ignore-path ../../.prettierignore",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}

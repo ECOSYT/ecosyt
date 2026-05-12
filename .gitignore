@@ -1,0 +1,87 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.turbo/
+.turbo//
+.next/
+out/
+
+# Runtime & Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+.vim/
+.netrwhist
+*~
+
+# GitHub
+.github/agents/
+.github/hooks/
+.github/instructions/
+.github/prompts/
+.github/skills/
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.vitest/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+.env.test
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Editor temp files
+*.tmp
+*.temp
+.swp
+.swo
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+.fseventsd
+.com.apple.timemachine.donotpresent
+
+# Miscellaneous
+.cache/
+tmp/
+temp/

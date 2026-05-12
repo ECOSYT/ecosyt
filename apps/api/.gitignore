@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build & Dist
+dist/
+build/
+.turbo/
+
+# NestJS
+*.d.ts
+*.js
+!jest.config.js
+!nest-cli.json
+!tsconfig.json
+!prisma.config.ts
+
+# Prisma
+.env
+.env.local
+prisma/dev.db
+prisma/dev.db-journal
+.prisma/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/

@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./packages/shared/tsconfig.build.json" },
+    { "path": "./packages/ast/tsconfig.build.json" },
+    { "path": "./packages/compiler/tsconfig.build.json" },
+    { "path": "./packages/runtime/tsconfig.build.json" },
+    { "path": "./packages/sync/tsconfig.build.json" },
+    { "path": "./packages/builder-ui/tsconfig.build.json" },
+    { "path": "./apps/api/tsconfig.build.json" },
+    { "path": "./apps/sync-server/tsconfig.build.json" },
+    { "path": "./apps/web/tsconfig.json" }
+  ]
+}

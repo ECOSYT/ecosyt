@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ecosyt/shared": ["packages/shared/src/index.ts"],
+      "@ecosyt/ast": ["packages/ast/src/index.ts"],
+      "@ecosyt/compiler": ["packages/compiler/src/index.ts"],
+      "@ecosyt/runtime": ["packages/runtime/src/index.ts"],
+      "@ecosyt/sync": ["packages/sync/src/index.ts"],
+      "@ecosyt/builder-ui": ["packages/builder-ui/src/index.tsx"]
+    }
+  }
+}

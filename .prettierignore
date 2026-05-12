@@ -1,0 +1,12 @@
+node_modules
+dist
+**/dist/**
+**/*.d.ts
+**/*.js
+coverage
+playwright-report
+.turbo
+*.sqlite
+pnpm-lock.yaml
+
+docs/ECOSYT — Spécification d'Architecture Système.md
