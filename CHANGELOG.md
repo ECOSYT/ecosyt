@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ECOSYT/ecosyt/compare/v1.0.0...v1.0.1) (2026-05-14)
+
+
+### Bug Fixes
+
+* update permissions for Claude Code Review workflow ([139eeea](https://github.com/ECOSYT/ecosyt/commit/139eeeaa1d3dfe4091afa93d349414d828a3dc5f))
+
 # 1.0.0 (2026-05-12)
 
 ### Bug Fixes
