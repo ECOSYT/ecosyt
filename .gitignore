@@ -27,6 +27,9 @@ yarn-error.log*
 .vscode/
 .idea/
 .cursor/
+.agents/
+.codex/
+.a
 *.swp
 *.swo
 *~
@@ -44,6 +47,8 @@ Thumbs.db
 .github/instructions/
 .github/prompts/
 .github/skills/
+
+CLAUDE.md
 
 # Testing
 coverage/
@@ -84,5 +89,8 @@ desktop.ini
 
 # Miscellaneous
 .cache/
+.cache-local/
+.pnpm-home/
+.state-local/
 tmp/
 temp/
