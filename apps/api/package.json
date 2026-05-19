@@ -34,7 +34,7 @@
     "prom-client": "^15.1.3",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
-    "typeorm": "^0.3.29"
+    "typeorm": "^1.0.0"
   },
   "devDependencies": {
     "typeorm-ts-node-esm": "^0.3.20"
