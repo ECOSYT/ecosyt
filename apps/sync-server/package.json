@@ -17,7 +17,7 @@
     "ioredis": "^5.10.1",
     "jsonwebtoken": "^9.0.3",
     "pino": "^10.3.1",
-    "ws": "^8.20.0",
+    "ws": "^8.21.0",
     "yjs": "^13.6.30"
   },
   "devDependencies": {
