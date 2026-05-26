@@ -54,8 +54,8 @@ importers:
         specifier: ^17.6.0
         version: 17.6.0
       jscpd:
-        specifier: 4.1.0
-        version: 4.1.0
+        specifier: 4.2.4
+        version: 4.2.4
       prettier:
         specifier: ^3.8.3
         version: 3.8.3
@@ -605,20 +605,20 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@jscpd/badge-reporter@4.1.0':
-    resolution: {integrity: sha512-18dLePKrcUGP25MnwAWW2pCv9k6jYQI/AmtEroF7h/gvxJ7IakFKYIzDO8MO/HcFwfFDzkKe3AP2ZSrgUvN84w==}
+  '@jscpd/badge-reporter@4.2.4':
+    resolution: {integrity: sha512-g5vu05u0lX9rcHA0k3CptLfpOiuMzxh5+mUe2iYRAznTwH3ks6JAVAf9aPi5mBFttMCRiJh2zSt3xnSadHtMGg==}
 
-  '@jscpd/core@4.1.0':
-    resolution: {integrity: sha512-6hnibDeLfIWS5Dfy1V/CUf2CijszSe1Z2dNymfqwGK1BDqGaaXqXU3WMZzL0Us131rGLIqqExjfQrBGDQ940TA==}
+  '@jscpd/core@4.2.4':
+    resolution: {integrity: sha512-9V9YzmmhYg9682kFqi+n0KGOhXNSoqxHbuIP3i/l/oSd6upBOnnSeBWDZMGOenQRQnyKEtCIbnS9YFz+3B+siQ==}
 
-  '@jscpd/finder@4.1.0':
-    resolution: {integrity: sha512-7bb6Ap+/BGmmZjopq6LZ7knXl2BW3uYvfRMg5eZ44KMzQBUZTAF154SdQMkFBA4tPZKOtMf1SjOJI55ja+2CFQ==}
+  '@jscpd/finder@4.2.4':
+    resolution: {integrity: sha512-4LLEuAAmAraud/TAAlB5BByVdWfy7SYiPKacj5yEggpkNs0qsw2kiZ5EyU3LonB+/vntJJEDDpJMmvOeS58e0A==}
 
-  '@jscpd/html-reporter@4.1.0':
-    resolution: {integrity: sha512-mINEEgtgITHGpF9U9vL/caf48msNarBeDJCBRA6S7xnHkIoDjjYNxeEyJSI7sAlcGeibl21sHOtfjpJz8i2tRQ==}
+  '@jscpd/html-reporter@4.2.4':
+    resolution: {integrity: sha512-6UljCTVGf7O+o6D6fs1zNBG+vR1PTn47W2mSgb5hzSrvNw60rLrVoAMZMnr/TeIEdd/OEgAu+icbdvvVBfnvJw==}
 
-  '@jscpd/tokenizer@4.1.0':
-    resolution: {integrity: sha512-eYQun9bMOcSj14C7uH3QDkkQqIogRem+UqFYLuyt6UqJ+PrXJJkoa+gRTICqyY/xH73HsXy0BPNhGMsi3wTMGg==}
+  '@jscpd/tokenizer@4.2.4':
+    resolution: {integrity: sha512-nM4kGyDvpcevt8t0zOsMQ82ShSc65c3LIQUHClTYwraiOGOmWgUQyen+JIiFCNF8eDCGR2Qa5iI5XBfGWYQzIg==}
 
   '@lukeed/csprng@1.1.0':
     resolution: {integrity: sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==}
@@ -2206,11 +2206,11 @@ packages:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
-  jscpd-sarif-reporter@4.1.0:
-    resolution: {integrity: sha512-D2JEDLrbt/aUahjhBLzgNtVrrRJ7UuWBBNkiwXXBh3wQ7+FRRL5T6TilBCFEu+2Plvmo/UygXyZXO8dOJM3mww==}
+  jscpd-sarif-reporter@4.2.4:
+    resolution: {integrity: sha512-JtX79kFSyAhqJh5TdLUcvtYJtJd1F8UW8b4Miaga+EIgUn2/nR0N2zWL9mH5cRXgbzLuQbbsw9kReUVIECApwQ==}
 
-  jscpd@4.1.0:
-    resolution: {integrity: sha512-LOXYBLp08+CoCVmb161k4rdR7Za/IGilmKnhXb9uLSgGSq135JMEXRku71xWpCDRyNzZHltxYbYgd8gkrdqJ2Q==}
+  jscpd@4.2.4:
+    resolution: {integrity: sha512-PSo2U0G8OxULayGyQMv7T/0ZQ+c3PPltdMOz/57v9Xnmq5xSIhh4cnZ0oYZPKqejy10aFwAbMVxqAlo24+PQ3g==}
     hasBin: true
 
   json-buffer@3.0.1:
@@ -2927,10 +2927,6 @@ packages:
     resolution: {integrity: sha512-gjVS5hOP+M3wMm5nmNOucbIrqudzs9v/57bWRHQWLYklXqoXKrVfYW2W9+glfGsqtPgpiz5WwyEEB+ksXIx3gQ==}
     engines: {node: '>=18'}
 
-  prismjs@1.30.0:
-    resolution: {integrity: sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==}
-    engines: {node: '>=6'}
-
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
@@ -3224,6 +3220,9 @@ packages:
   source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
+
+  spark-md5@3.0.2:
+    resolution: {integrity: sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==}
 
   spawn-error-forwarder@1.0.0:
     resolution: {integrity: sha512-gRjMgK5uFjbCvdibeGJuy3I5OYz6VLoVdsOJdA6wV0WlfQVLFueoqMxwwYD9RODdgb6oUIvlRlsyFSiQkMKu0g==}
@@ -4114,20 +4113,20 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@jscpd/badge-reporter@4.1.0':
+  '@jscpd/badge-reporter@4.2.4':
     dependencies:
       badgen: 3.3.2
       colors: 1.4.0
       fs-extra: 11.3.5
 
-  '@jscpd/core@4.1.0':
+  '@jscpd/core@4.2.4':
     dependencies:
       eventemitter3: 5.0.4
 
-  '@jscpd/finder@4.1.0':
+  '@jscpd/finder@4.2.4':
     dependencies:
-      '@jscpd/core': 4.1.0
-      '@jscpd/tokenizer': 4.1.0
+      '@jscpd/core': 4.2.4
+      '@jscpd/tokenizer': 4.2.4
       blamer: 1.0.7
       bytes: 3.1.2
       cli-table3: 0.6.5
@@ -4137,16 +4136,16 @@ snapshots:
       markdown-table: 2.0.0
       pug: 3.0.4
 
-  '@jscpd/html-reporter@4.1.0':
+  '@jscpd/html-reporter@4.2.4':
     dependencies:
       colors: 1.4.0
       fs-extra: 11.3.5
       pug: 3.0.4
 
-  '@jscpd/tokenizer@4.1.0':
+  '@jscpd/tokenizer@4.2.4':
     dependencies:
-      '@jscpd/core': 4.1.0
-      prismjs: 1.30.0
+      '@jscpd/core': 4.2.4
+      spark-md5: 3.0.2
 
   '@lukeed/csprng@1.1.0': {}
 
@@ -5772,23 +5771,23 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jscpd-sarif-reporter@4.1.0:
+  jscpd-sarif-reporter@4.2.4:
     dependencies:
       colors: 1.4.0
       fs-extra: 11.3.5
       node-sarif-builder: 3.4.0
 
-  jscpd@4.1.0:
+  jscpd@4.2.4:
     dependencies:
-      '@jscpd/badge-reporter': 4.1.0
-      '@jscpd/core': 4.1.0
-      '@jscpd/finder': 4.1.0
-      '@jscpd/html-reporter': 4.1.0
-      '@jscpd/tokenizer': 4.1.0
+      '@jscpd/badge-reporter': 4.2.4
+      '@jscpd/core': 4.2.4
+      '@jscpd/finder': 4.2.4
+      '@jscpd/html-reporter': 4.2.4
+      '@jscpd/tokenizer': 4.2.4
       colors: 1.4.0
       commander: 5.1.0
       fs-extra: 11.3.5
-      jscpd-sarif-reporter: 4.1.0
+      jscpd-sarif-reporter: 4.2.4
 
   json-buffer@3.0.1: {}
 
@@ -6368,8 +6367,6 @@ snapshots:
     dependencies:
       parse-ms: 4.0.0
 
-  prismjs@1.30.0: {}
-
   process-nextick-args@2.0.1: {}
 
   process-warning@5.0.0: {}
@@ -6759,6 +6756,8 @@ snapshots:
   source-map-js@1.2.1: {}
 
   source-map@0.6.1: {}
+
+  spark-md5@3.0.2: {}
 
   spawn-error-forwarder@1.0.0: {}
 
